@@ -317,6 +317,7 @@ static struct usb_device_id rtw_usb_id_tbl[] ={
 	{USB_DEVICE(0x2001, 0x3318),.driver_info = RTL8821}, /* D-Link - Cameo */
 	{USB_DEVICE(0x0E66, 0x0023),.driver_info = RTL8821}, /* HAWKING - Edimax */
 	{USB_DEVICE(0x0846, 0x9052),.driver_info = RTL8821}, /* Netgear - A6100 */
+	{USB_DEVICE(0x2019, 0xAB32),.driver_info = RTL8821}, /* Planex - GW-450S */
 #endif
 
 #ifdef CONFIG_RTL8192E
